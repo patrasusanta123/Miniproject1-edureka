@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(36, 33, 33, 0.7)), url(./images/new\ bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+    border-bottom: 7px solid #333;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo {
+    width: 180px;
+
+}
+
+nav button {
+    border: 0;
+    outline: 0;
+    background: red;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 2px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.language-btn {
+    display: inline-flex;
+    margin-left: 889px;
+
+}
+
+.language-btn select {
+    background: transparent;
+    padding: 7px 10px;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1 solid transparent;
+
+}
+
+.language-btn select option {
+    background-color: gray;
+}
+
+.header .title {
+    padding: 70px 45px;
+    margin-top: 7%;
+
+}
+
+.header .title .content {
+    width: 950px;
+    margin: auto;
+    padding: 75pz 0;
+    text-align: center;
+}
+
+.header .title .content h1 {
+    width: 650px;
+    margin: auto;
+    font-size: 62px;
+    font-weight: 600;
+    margin-bottom: 12px;
+
+}
+
+.header .title .content h2 {
+    width: 650px;
+    margin: auto;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.header .title .content form h3 {
+
+    font-size: 18px;
+    margin: 18px 0;
+    text-align: center;
+    margin-top: 34px;
+}
+
+.header .title .content form .email {
+
+    width: 1175x;
+    margin: auto;
+}
+
+.header .title .content form .email input {
+    height: 69px;
+    width: 486px;
+    margin: auto;
+    padding: 20px;
+    outline: none;
+    margin-left: 0px;
+
+}
+
+.header .title .content form .email button {
+    margin: auto;
+    height: 68px;
+    width: 252px;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 7px 17px;
+    background: #e50914;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin-left: -4px;
+}
+
+.header .title .content form .email button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header .title .content form .email button:hover {
+    background-color: #f40612;
+}
+.features {
+    padding: 50px 12px;
+    font-size: 22px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    border-bottom: 7px solid #333;
+}
+
+.text-col {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col img {
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+.features h1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-left: 130px;
+}
+
+.features p {
+    font-size: 26px;
+    margin-left: 130px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 7px;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+#accordionSection {
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.question {
+    margin: 6px auto;
+    width: 100%;
+    max-width: 750px;
+}
+
+.accordion-button {
+    color: #fff;
+}
+
+.accordion-button,
+.body {
+    padding: 25px;
+    font-size: 25px;
+    color: #fff;
+
+}
+
+
+#accordionSection .email-signup {
+    max-width: 784px;
+    margin: 16px auto 22px;
+}
+
+#ready {
+    font-size: 18px;
+    margin-top: 44px;
+}
+
+form h3 {
+
+    font-size: 18px;
+    margin: 18px 0;
+    text-align: center;
+    margin-top: 34px;
+}
+
+form .email {
+    text-align: center;
+}
+
+form .email input {
+    height: 69px;
+    width: 486px;
+    margin: auto;
+    padding: 20px;
+    outline: none;
+    margin-left: 0px;
+
+}
+
+form .email button {
+    margin: auto;
+    height: 68px;
+    width: 252px;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 7px 17px;
+    background: #e50914;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin-left: -4px;
+}
+
+form .email button a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.row2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.footer {
+    padding: 50px 15% 10px;
+    border-top: 7px solid #333;
+    margin-top: 90px;
+    color: #777;
+}
+
+.footer h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: -17px;
+    margin-left: 12px;
+    display: flex;
+}
+
+.footer .col {
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.footer .col a {
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.language-btn-footer {
+    display: inline-flex;
+    margin-top: 12px;
+    background: transparent;
+    padding: 7px 10px;
+    color: gray;
+    border: solid 1 solid transparent;
+
+}
+
+.language-btn-footer select option {
+    background-color: gray;
+}
+
+.copyright-text {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
